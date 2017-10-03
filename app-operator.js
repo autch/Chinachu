@@ -60,7 +60,7 @@ const config = require(CONFIG_FILE);
 // settings
 const schedulerIntervalTime = 1000 * 60 * 10;// 最長10分毎
 const notifyIntervalTime = 1000 * 60 * 60 * 3;// 3時間毎
-const prepTime = 1000 * 30;// 30秒前
+const prepTime = 1000 * 60;// 1分前
 const recordingPriority = config.recordingPriority || 2;
 const conflictedPriority = config.conflictedPriority || 1;
 const storageLowSpaceThresholdMB = config.storageLowSpaceThresholdMB || 3000;// 3 GB
